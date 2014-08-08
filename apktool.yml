@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: TIdroid-segucancati-browserapk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '8'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.isaacwaller.segucancati
+  orig_package: com.isaacwaller.segucancati
+compressionType: false

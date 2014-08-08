@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abs__action_bar_home_description">Navigate home</string>
+    <string name="abs__action_bar_up_description">Navigate up</string>
+    <string name="abs__action_menu_overflow_description">More options</string>
+    <string name="abs__action_mode_done">Done</string>
+    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <string name="abs__activity_chooser_view_dialog_title_default">Select activity</string>
+    <string name="abs__share_action_provider_share_with">Share with...</string>
+    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <string name="abs__shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abs__searchview_description_search">Search</string>
+    <string name="abs__searchview_description_query">Search query</string>
+    <string name="abs__searchview_description_clear">Clear query</string>
+    <string name="abs__searchview_description_submit">Submit query</string>
+    <string name="abs__searchview_description_voice">Voice search</string>
+    <string name="share">Share</string>
+    <string name="app_name">Wikidroid</string>
+    <string name="sharePage">Share page:</string>
+    <string name="foundACoolWikipediaArticle">I found a cool Wikipedia article:</string>
+    <string name="searchHint">Search Wikipedia</string>
+    <string name="search">Search</string>
+    <string name="language">Language</string>
+    <string name="settings">Settings</string>
+    <string name="languageSummary">Which Wikipedia site to use</string>
+    <string name="preferencesTitle">Wikidroid settings</string>
+    <string name="bookmarks">Bookmarks / saved pages</string>
+    <string name="addbookmark">Add bookmark</string>
+    <string name="add">Add</string>
+    <string name="appearance">Appearance</string>
+    <string name="wikidroidbookmark">Wikidroid Bookmark</string>
+    <string name="delete">Delete</string>
+    <string name="bookmarkAdded">Bookmark added.</string>
+    <string name="home">Home</string>
+    <string name="randompage">Random page</string>
+    <string name="refresh">Refresh</string>
+    <string name="firstLaunchTitle">Welcome</string>
+    <string name="firstLaunchMessage">"Thanks for downloading Wikidroid! Here are a few tips to get you started quickly:
+ 
+ To access the search box, press MENU and select Search, or press the hardware Search key on your device (if your device has a hardware Search key.)
+ Change language by pressing MENU, selecting Settings, and selecting the language you want from the Language menu.
+ To bookmark articles, press MENU and select Add Bookmark. You can access these bookmarks by pressing MENU and selecting Bookmarks. You can also add a home screen shortcut to a bookmark - long-press on an empty spot on your home screen, select Shortcuts, and select Wikidroid Bookmark from the list. Select the bookmark you want and it will appear on your home screen for easy access.
+ 
+ Thanks again!"</string>
+    <string name="versionThreeWelcome">"Wikidroid 3.0 has lots of new features, including...
+ For even more features, such as saving articles to your SD card, no ads, bookmark import / export and more!"</string>
+    <string name="cannotLoadRandom">Error loading random page!</string>
+    <string name="searchSettingsDescription">Search Wikipedia articles</string>
+    <string name="selectText">Select text</string>
+    <string name="errorSelectText">Could not start selecting text. Contact us at isaac@siriusapplications.com</string>
+    <string name="keepScreenOn">Keep screen on</string>
+    <string name="keepScreenOnOn">Do not let the screen turn off while reading articles</string>
+    <string name="keepScreenOnOff">Let the screen turn off while reading articles</string>
+    <string name="fullScreen">Hide notification bar</string>
+    <string name="fullScreenOn">Use fullscreen mode</string>
+    <string name="fullScreenOff">Do not use fullscreen mode</string>
+    <string name="exportBookmarks">Export bookmarks</string>
+    <string name="exportBookmarksSummary">Export bookmarks in Netscape format to a file on your SD card</string>
+    <string name="bookmarkExportError">Could not export bookmarks. Do you have an SD card in your phone?</string>
+    <string name="bookmarkExportSuccess">Bookmarks saved to WikipediaBookmarks.html on your SD card.</string>
+    <string name="savePage">Save page to storage</string>
+    <string name="loadSavedPage">Saved pages</string>
+    <string name="savePageNoPro">Save page to SD card (Plus required)</string>
+    <string name="loadSavedPageNoPro">Saved pages (Plus required)</string>
+    <string name="savedPages">Saved pages</string>
+    <string name="offline">(offline)</string>
+    <string name="pageAlreadySaved">"This page has already been saved. If you'd like to save it again, delete it and try again."</string>
+    <string name="saveError">The page could not be saved. Make sure you have an internet connection and try again.</string>
+    <string name="upgradeToWikidroidPlus">Upgrade to Wikidroid Plus</string>
+    <string name="pageSaved">Page saved.</string>
+    <string name="savingPage">Saving page</string>
+    <string name="pleaseWait">Please wait...</string>
+    <string name="firstLaunchV3Title">Version 3.0</string>
+    <string name="firstLaunchV3Message">"Welcome to Wikidroid 3.0! This version of Wikidroid is much faster, has fewer bugs, and includes some new features, such as:
+ 
+ - Quick Search Box integration
+ - Copy text from article
+ - Fullscreen mode
+ 
+ If you want even more from Wikidroid, check out Wikidroid Plus on the Android Market. It removes the ads from Wikidroid and also can save any Wikipedia article to your SD card for viewing offline!"</string>
+    <string name="proButton">Check out Plus</string>
+    <string name="firstLaunchProTitle">Thanks</string>
+    <string name="firstLaunchProMessage">"Thank you for purchasing Wikidroid Plus! All of the Plus-exclusive features have now been unlocked.
+ 
+ To save a page, tap MENU > Save page to SD card. To load a saved page or delete a saved page, tap MENU > Saved pages. Long-press on a page to delete it, or tap on a page to load it."</string>
+    <string name="loadHomePage">Load home page</string>
+    <string name="loadHomePageOn">Open home page when starting app</string>
+    <string name="loadHomePageOff">Open blank page when starting app</string>
+    <string name="noActivityFoundToHandleLink">No application installed could open this link.</string>
+    <string name="textSize">Text size</string>
+    <string name="textSizeSummary">Size of article text</string>
+    <string name="languageLoadError">Could not load language list. Make sure you have an internet connection.</string>
+    <string name="languageSwap">Swap language</string>
+    <string name="languageSwapButton">Enable language swap button</string>
+    <string name="languageSwapButtonSummary">Add a button to the menu that will allow you to quickly switch between two languages</string>
+    <string name="language2">Alternate language</string>
+    <string name="language2summary">Will change places with the language above when swap button pressed</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="pinTitleOn">The title bar does not scroll with the rest of the page</string>
+    <string name="pinTitle">Pin title bar</string>
+    <string name="pinTitleOff">The title bar scrolls with the rest of the page</string>
+    <string name="savedPagesRequiresPlus">Saved pages requires Wikidroid Plus. For more information on Wikidroid Plus, press MENU > Upgrade to Wikidroid Plus.</string>
+    <string name="homePageSectionNotAvailable">Sorry, but this home page section is not available on this language. If you would like to see this section implemented for this language, please contact the developers of Wikidroid at isaac@siriusapplications.com.</string>
+    <string name="activatingPlus">Activating Plus...</string>
+    <string name="activatingPlusMessage">Please do not close Wikidroid until the activation process is complete.</string>
+    <string name="genericErrorActivating">There was an error while activating Wikidroid Plus. Please make sure you have an internet connection and try again.</string>
+    <string name="errorActivating">There was an error while activating Wikidroid Plus. Details: %s</string>
+    <string name="successActivating">Activation was a success; you have been upgraded to Wikidroid Plus. Thanks!</string>
+    <string name="queue">Queue</string>
+    <string name="queue_empty">The queue is empty. Long press on a link to add it to the queue.</string>
+    <string name="clear_queue">Clear queue</string>
+    <string name="open">Open</string>
+    <string name="bookmarks_empty">No bookmarks</string>
+    <string name="saved_pages_empty">No saved pages</string>
+</resources>

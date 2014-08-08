@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/sliding_menu" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@id/bookmarks_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BOOKMARKS" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/listSeparator" />
+        <View android:id="@id/bookmarks_header_divider" android:visibility="gone" android:layout_below="@id/bookmarks_header" android:layout_alignParentLeft="true" style="@style/listSeparatorDivider" />
+        <com.isaacwaller.wikipedia.ExpandedListView android:id="@id/bookmarks_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_below="@id/bookmarks_header_divider" android:layout_alignParentLeft="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff777777" android:id="@id/bookmarks_empty" android:paddingLeft="5.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/bookmarks_empty" android:layout_below="@id/bookmarks_list" android:layout_alignParentLeft="true" />
+        <TextView android:id="@id/saved_pages_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SAVED PAGES" android:layout_below="@id/bookmarks_empty" android:layout_alignParentLeft="true" style="@style/listSeparator" />
+        <View android:id="@id/saved_pages_header_divider" android:visibility="gone" android:layout_below="@id/saved_pages_header" android:layout_alignParentLeft="true" style="@style/listSeparatorDivider" />
+        <com.isaacwaller.wikipedia.ExpandedListView android:id="@id/saved_pages_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/saved_pages_header_divider" android:layout_alignParentLeft="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff777777" android:id="@id/saved_pages_empty" android:paddingLeft="5.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/saved_pages_empty" android:layout_below="@id/saved_pages_list" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</ScrollView>

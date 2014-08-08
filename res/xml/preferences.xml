@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/bookmarks">
+        <Preference android:title="@string/exportBookmarks" android:key="com.isaacwaller.wikipedia.ExportBookmarks" android:summary="@string/exportBookmarksSummary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/language">
+        <Preference android:title="@string/language" android:key="com.isaacwaller.wikipedia.Language" android:summary="@string/languageSummary" />
+        <CheckBoxPreference android:title="@string/languageSwapButton" android:key="languageSwapButton" android:summary="@string/languageSwapButtonSummary" />
+        <Preference android:title="@string/language2" android:key="language2" android:summary="@string/language2summary" android:dependency="languageSwapButton" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/appearance">
+        <CheckBoxPreference android:title="@string/keepScreenOn" android:key="com.isaacwaller.wikipedia.KeepScreenOn" android:summary="@string/keepScreenOnOn" android:summaryOn="@string/keepScreenOnOn" android:summaryOff="@string/keepScreenOnOff" />
+        <CheckBoxPreference android:title="@string/fullScreen" android:key="com.isaacwaller.wikipedia.FullScreen" android:summary="@string/fullScreenOn" android:summaryOn="@string/fullScreenOn" android:summaryOff="@string/fullScreenOff" />
+        <CheckBoxPreference android:title="@string/loadHomePage" android:key="loadHomePage" android:summary="@string/loadHomePageOn" android:defaultValue="true" android:summaryOn="@string/loadHomePageOn" android:summaryOff="@string/loadHomePageOff" />
+    </PreferenceCategory>
+</PreferenceScreen>
